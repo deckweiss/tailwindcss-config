@@ -3,8 +3,16 @@
     "version": "1.0.0-rc.0",
     "description": "",
     "main": "src/index.js",
-    "scripts": {},
+    "scripts": {
+        "dev": "vite"
+    },
     "keywords": [],
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.39",
+        "tailwindcss": "^3.4.6",
+        "vite": "^5.3.4"
+    }
 }
