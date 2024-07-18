@@ -2,9 +2,19 @@ export const colors = {
     transparent: 'transparent',
     current: 'currentColor',
     layer: {
-        base: '#ffffff',
-        1: '#f8f8f8',
-        2: '#e7e7e7'
+        base: 'var(--layer-base)',
+        1: 'var(--layer-1)',
+        2: 'var(--layer-2)'
+    },
+    cool: {
+        'layer-base': 'var(--cool-layer-base)',
+        'layer-1': 'var(--cool-layer-1)',
+        'layer-2': 'var(--cool-layer-2)'
+    },
+    warm: {
+        'layer-base': 'var(--warm-layer-base)',
+        'layer-1': 'var(--warm-layer-1)',
+        'layer-2': 'var(--warm-layer-2)'
     },
     grey: {
         DEFAULT: '#e9e9e9',

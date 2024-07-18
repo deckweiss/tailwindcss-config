@@ -1,8 +1,8 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-import { colors } from './src';
+import defaultTheme from 'tailwindcss/defaultTheme';
+import { colors } from '@deckweiss/tailwindcss-config';
 
-module.exports = {
-    content: ['./test-setup/index.html'],
+export default {
+    content: ['./src/index.html'],
     theme: {
         extend: {
             colors,

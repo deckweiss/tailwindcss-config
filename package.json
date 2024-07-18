@@ -2,17 +2,13 @@
     "name": "@deckweiss/tailwindcss-config",
     "version": "1.0.0-rc.1",
     "description": "",
-    "main": "src/index.js",
-    "scripts": {
-        "dev": "vite"
+    "exports": {
+        ".": "./src/index.js",
+        "./variables": "./src/variables.css"
     },
+    "type": "module",
+    "scripts": {},
     "keywords": [],
     "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "autoprefixer": "^10.4.19",
-        "postcss": "^8.4.39",
-        "tailwindcss": "^3.4.6",
-        "vite": "^5.3.4"
-    }
+    "license": "MIT"
 }
